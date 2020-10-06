@@ -53,7 +53,7 @@ class _SwitchMapStreamSink<S, T> implements ForwardingSink<S, T> {
 }
 
 /// Converts each emitted item into a new Stream using the given mapper
-/// function. The newly created Stream will be be listened to and begin
+/// function. The newly created Stream will be listened to and begin
 /// emitting items, and any previously created Stream will stop emitting.
 ///
 /// The switchMap operator is similar to the flatMap and concatMap
